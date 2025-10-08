@@ -6,7 +6,7 @@ services:
       context: ./nginx
     container_name: nginx
     ports:
-      -  "81:81"
+      -  "80:80"
     networks: 
       - notes-app
     depends_on:
